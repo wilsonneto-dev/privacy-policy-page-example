@@ -9,17 +9,14 @@ export default function Header()
             <div className={styles.wrapper}>
                 <div>
                     <div>
-                        <b>Next.js</b>
+                        <b>Byte Byte Dark</b>
                     </div>
                 </div>
                 <div>
-                    <Link href="/">Home</Link>
-                    <Link href="/">Mission</Link>
-                    <Link href="/">Portfolio</Link>
-                    <Link href="/">Blog</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                 </div>
                 <div>
-                    <Button>Contact</Button>
+                    <a href="/"><Button>Install the Extension</Button></a>
                 </div>
             </div>
         </header>
